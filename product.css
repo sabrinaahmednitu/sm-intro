@@ -8,38 +8,53 @@
 body{
     font-family :sans-serif;
 }
+                              /* product first part css */
 
-                                             /* product css */
+.product-first-part{
+    height: 248px;
+    background: #101010;
+}
+
+.product-header{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+padding: 100px;
+}
+
+                               /* product cards css */
 
  
 .product{
   height: 1633px;
   width: 100%;
-background: #191919;
-    
+  background: #191919;
+   padding-top: 100px;
 }
 
-.product__cards__row{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  justify-content: center;
-  align-items: center;
-  grid-gap: 10px;
+.p-card{
+  background-color: #191919 !important;
+}
+.p-card img{
+   border-radius: 0px !important;
 }
 
-.product-card img:hover{
+.p-card img:hover{
   background: #1C1E1A;
    transform: scale(1.05);
    transition: 1s ; 
+  
 }
 
-.p-img2{
-width: 309px;
-height: 309px;
 
-}
-
-.card-body h6 {
+.product-card-body h6 {
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -49,8 +64,9 @@ text-align: center;
 letter-spacing: 0.15em;
 text-transform: uppercase;
 color: #F81F01;
+padding-top: 20px;
 }
-.card-body h2 {
+.product-card-body h2 {
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
@@ -58,20 +74,18 @@ font-size: 28px;
 line-height: 34px;
 text-align: center;
 
-color: #111111;
+color: #FFFFFF;
 }
-.product-card h5 {
+.product-card-body h5 {
  font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 22px;
 line-height: 27px;
-
 text-align: center;
-
 color: #FFFFFF;
 }
-.product-card span {
+.product-card-body span {
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 300;
@@ -79,5 +93,6 @@ font-size: 18px;
 line-height: 22px;
 text-align: center;
 color: #CED4DA;
+
 }
 
