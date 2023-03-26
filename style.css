@@ -930,6 +930,13 @@ border-radius: 10px;
 .sub-btn{
   display: none;
 }
+.sub-all-btn{
+  width: 273px;
+height: 32px;
+padding: 16px 20px;
+font-size: 11px;
+line-height: 5px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -1268,6 +1275,10 @@ line-height: 23px;
 }
 .v-all-btn{
   margin-top: 22px;
+  width: 185px;
+  height: 34px;
+  font-size: 12px;
+  line-height: 5px;
 }
 }
 
