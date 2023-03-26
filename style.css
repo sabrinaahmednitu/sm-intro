@@ -441,6 +441,55 @@ line-height: 20px;
 font-size: 19px;
 line-height: 23px;
 }
+.product-btn{
+  display: none;
+}
+.p-img2{
+width: 229px;
+height: 229px;
+}
+.product-card h2 {
+font-size: 21px;
+line-height: 26px;
+overflow: hidden;
+}
+.product-card h5 {
+font-size: 22px;
+line-height: 27px;
+overflow: hidden;
+}
+.product__btn__hero{
+  margin-top: 50px;
+  font-size: 11px;
+line-height: 5px;
+width: 190px;
+height: 34px;
+padding: 16px 20px;
+}
+.p-card1{
+  overflow: hidden;
+}
+.p-card3{
+  overflow: hidden;
+} 
+.p-card4{
+  display: none;
+}
+}
+/* @media screen and (max-width: 600px) {
+.product{
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+.p-head1{
+  font-size: 16px;
+line-height: 20px;
+}
+.p-head2{
+font-size: 19px;
+line-height: 23px;
+}
 .p-img2{
 width: 100%;
 height: 100%;
@@ -464,7 +513,7 @@ width: 190px;
 height: 34px;
 padding: 16px 20px;
 }
-}
+} */
 
 @media only screen and (min-width: 600px) {
  .product{
@@ -912,7 +961,80 @@ line-height: 23px;
 }
 .sub-cards{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.sub-card{
+width: 230px;
+height: auto;
+background: #E9ECEF;
+border-radius: 10px;
+}
+.sub-card img{
+   box-sizing: border-box;
+   margin:10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 36px;
+  width: 36px;
+ 
+}
+.sub-card h3{
+  font-size: 18px;
+line-height: 22px;
+}
+.sub-card p{
+ font-size: 14px;
+line-height: 17px;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.sub-card h5{
+ font-size: 26px;
+line-height: 32px;
+margin-top: 0px;
+}
+.sub-card h6{
+font-size: 22px;
+line-height: 27px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.sub-btn{
+  display: none;
+}
+.sub-all-btn{
+  width: 273px;
+height: 32px;
+padding: 16px 20px;
+font-size: 11px;
+line-height: 5px;
+}
+.s-card1{
+overflow:hidden ;
+}
+.s-card3{
+overflow: hidden;
+}
+}
+/* @media only screen and (max-width: 600px) {
+.subscription{
+  width: 100%;
+height: auto;
+background: #FFFFFF;
+}    
+.sub-head1{
+font-size: 16px;
+line-height: 20px;
+}
+.sub-head2{
+font-size: 19px;
+line-height: 23px;
+}
+.sub-cards{
+  display: flex;
+  flex-direction: row;
 }
 .sub-card{
 width: 100%;
@@ -937,7 +1059,7 @@ padding: 16px 20px;
 font-size: 11px;
 line-height: 5px;
 }
-}
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
