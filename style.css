@@ -1297,10 +1297,12 @@ padding: 50px;
 height: auto;
 width: 100%;
 background: #191919;
+padding-top: 52px;
 padding-bottom: 100px;
 }
 .faq-header{
   margin-left: 10px;
+  padding-bottom: 41px;
 }
 .faq-head1{
   font-family: 'Montserrat';
@@ -1311,7 +1313,6 @@ line-height: 20px;
 letter-spacing: 0.15em;
 text-transform: uppercase;
 color: #F81F01;
-padding-top: 52px;
 }
 .faq-head2{
  font-family: 'Montserrat';
@@ -1320,7 +1321,6 @@ font-weight: 700;
 font-size: 32px;
 line-height: 39px;
 color: #FFFFFF;
-padding-bottom: 41px;
 }
 .faq-content{
   display: flex;
@@ -1408,9 +1408,12 @@ height: auto;
   .faq{
     height: auto;
     width: 100%;
+    padding-top: 16px;
+    padding-bottom: 30px;
   }
   .faq-header{
     margin-left: 0px;
+    padding-bottom: 10px;
   }
    .faq-text{
     width: 100%;
@@ -1418,7 +1421,26 @@ height: auto;
    .faq-img{
   display: none;
   }
- 
+ .faq-head1{
+   font-size: 18px;
+line-height: 22px;
+ }
+ .faq-head2{
+   font-size: 19px;
+   line-height: 23px;
+ }
+ .question span{
+   font-size: 14px;
+   line-height: 17px;
+ }
+ .faq-p{
+   font-size: 14px;
+   line-height: 17px;
+   width: 100%;
+ }
+ .faq-text{
+   width: 100%;
+ }
 }
 @media only screen and (min-width: 600px) {
   .faq{
@@ -1434,7 +1456,26 @@ height: auto;
   .faq-img{
    display: none;
   }
- 
+  .faq-head1{
+   font-size: 18px;
+line-height: 22px;
+ }
+ .faq-head2{
+   font-size: 19px;
+   line-height: 23px;
+ }
+ .question span{
+   font-size: 14px;
+   line-height: 17px;
+ }
+ .faq-p{
+   font-size: 14px;
+   line-height: 17px;
+   width: 100%;
+ }
+ .faq-text{
+   width: 100%;
+ }
 }
 @media only screen and (min-width: 768px) {
   .faq{
@@ -1450,7 +1491,26 @@ height: auto;
   .faq-img{
    display: none;
   }
- 
+  .faq-head1{
+font-size: 16px;
+line-height: 20px;
+ }
+ .faq-head2{
+font-size: 32px;
+line-height: 39px;
+ }
+ .question span{
+  font-size: 17px;
+line-height: 22px;
+ }
+ .faq-p{
+ font-size: 18px;
+line-height: 22px;
+   width: 100%;
+ }
+ .faq-text{
+   width: 100%;
+ }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1471,6 +1531,27 @@ height: auto;
   .faq-img img{
     width: 100%;
   }
+
+    .faq-head1{
+font-size: 16px;
+line-height: 20px;
+ }
+ .faq-head2{
+font-size: 32px;
+line-height: 39px;
+ }
+ .question span{
+  font-size: 17px;
+line-height: 22px;
+ }
+ .faq-p{
+ font-size: 18px;
+line-height: 22px;
+   width: 100%;
+ }
+ .faq-text{
+   width: 100%;
+ }
 }
 
 
@@ -1514,7 +1595,7 @@ background: #E9ECEF;
     display: flex;
     justify-content: center;
     align-items: center;
-      padding: 80px;
+      padding: 2px;
   }
 }
 
@@ -1837,4 +1918,4 @@ padding-bottom: 20px;
 }
 }
 
-                                           /* footer-2nd-part end */
+                      /* footer-2nd-part end */
