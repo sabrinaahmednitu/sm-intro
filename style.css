@@ -369,9 +369,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 22px;
 line-height: 27px;
-
 text-align: center;
-
 color: #FFFFFF;
 }
 .product-card span {
@@ -433,6 +431,13 @@ color: #CED4DA;
     height: auto;
     width: 100%;
 }
+.product__cards__row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
 .p-head1{
   font-size: 16px;
 line-height: 20px;
@@ -457,6 +462,12 @@ overflow: hidden;
 font-size: 22px;
 line-height: 27px;
 overflow: hidden;
+color:#F5191B;
+}
+.product-card h5 small {
+  display: block;
+  margin-top: 10px;
+  
 }
 .product__btn__hero{
   margin-top: 50px;
@@ -474,7 +485,8 @@ padding: 16px 20px;
 } 
 .p-card4{
   display: none;
-}
+} 
+
 }
 /* @media screen and (max-width: 600px) {
 .product{
@@ -859,7 +871,7 @@ margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-    grid-gap: 20px;
+  grid-gap: 20px;
 }
 .sub-card{
 width: 419px;
@@ -960,7 +972,8 @@ font-size: 19px;
 line-height: 23px;
 }
 .sub-cards{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   flex-direction: row;
 }
 .sub-card{
@@ -1012,10 +1025,10 @@ font-size: 11px;
 line-height: 5px;
 }
 .s-card1{
-overflow:hidden ;
+overflow:hidden;
 }
 .s-card3{
-overflow: hidden;
+overflow-x:hidden;
 }
 }
 /* @media only screen and (max-width: 600px) {
