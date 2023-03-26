@@ -1257,7 +1257,8 @@ display: block;
 
                      /* advertisement css */
 .advertisement{
-height: 200px;
+  width: 100%;
+height: auto;
 background: #E9ECEF;
 }
 .adv-text{
@@ -1278,14 +1279,15 @@ padding: 70px;
   }
 
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .advertisement{
     width: 100%;
+    height: auto;
   }
    .adv-text{
 font-size: 20px;
 line-height: 30px;
-padding: 50px;
+padding: 30px;
 }
 }
 
@@ -1432,6 +1434,8 @@ line-height: 22px;
  .question span{
    font-size: 14px;
    line-height: 17px;
+   margin-top: 5px;
+   margin-bottom: 0px;
  }
  .faq-p{
    font-size: 14px;
