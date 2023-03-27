@@ -971,12 +971,9 @@ line-height: 20px;
 font-size: 19px;
 line-height: 23px;
 }
-.sub-cards{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  flex-direction: row;
-}
+
 .sub-card{
+/* width: 100%; */
 width: 230px;
 height: auto;
 background: #E9ECEF;
@@ -1909,7 +1906,6 @@ padding-top: 30px;
 padding-bottom: 10px;
 }
 
-
 .footer_container_row{
 display: grid;
 grid-template-columns: repeat(4,1fr);
@@ -1918,38 +1914,23 @@ justify-content: center;
 align-items: center;
 }
 
-
-
-
-.footer_container{   
-    justify-content: center;
-    align-items: center;
-}
-
-.f-div2{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.box2 a{
+.f-box2 a{
  display: block;
  color: white;
  text-decoration: none;
 }
-.box2 a:hover{
+.f-box2 a:hover{
  color: #F81F01
 }
-.box3{
-    padding-top: 2rem ;
+.f-box3{
+    padding-top:30px ;
 }
-.box3 a{
+.f-box3 a{
  display: block;
  color: white;
  text-decoration: none;
 }
-.box3 a:hover{
+.f-box3 a:hover{
  color: #F81F01;
 }
 .footer_btn{
@@ -1960,6 +1941,7 @@ align-items: center;
   padding: 10px;
 }
 .message_box{  
+  width: 272.21px;
     border:0;
     outline: none;
     color: white;
@@ -1999,63 +1981,116 @@ align-items: center;
 width: 200px;
 }
 
- 
-@media only screen and (max-width: 768px) {
-  .footer{
-    width: 100%;
-  }
-  .footer_container_row{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-gap: 20px;
-justify-content: center;
-align-items: center;
-}
-  .message_box{  
-    border:0;
-    outline: none;
-    color: white;
-    background: transparent;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 10px;
-}
-.footer_btn{
-  border-radius: 5px;
-  width: 60%;
-  font-weight: 700;
-  padding: 10px;
-}
-.message_card{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-}
-
- @media only screen and (max-width:550px){
+  @media only screen and (max-width:600px){
    .footer_container{
-     text-align: center;
+     box-sizing: border-box;
+     text-align: left;
+     padding: 30px;
    }
      .footer_container_row{
-display: grid;
-grid-template-columns: repeat(1,1fr);
-grid-gap: 20px;
-justify-content: center;
-align-items: center;
-}
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   grid-gap: 0px;
+   justify-content: center;
+   align-items: center;
+   }
 .footer_btn{
   border-radius: 5px;
-  width: 56%;
+  width: 272.21px;
+  height: 41px;
   font-weight: 700;
 }
 .message_card{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.f-box2{
+  order:2 ;
+}
+.f-box3{
+order: 3;
+ padding-top: 0px;
+ padding-bottom: 10px;
+}
+.f-box4{
+order: 1;
+ padding-top: 20px;
+  padding-bottom: 50px
+}
+.f-box2 .links{
+  padding-top: 13px;
+}
+.f-box3 .links{
+  padding-top: 13px;
+}
+}
+   @media only screen and (min-width:600px){
+.footer_container{
+     box-sizing: border-box;
+     text-align: left;
+     padding: 30px;
+   }
+     .footer_container_row{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   grid-gap: 0px;
+   justify-content: center;
+   align-items: center;
+   }
+.footer_btn{
+  border-radius: 5px;
+  width: 272.21px;
+  height: 41px;
+  font-weight: 700;
+}
+.message_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.f-box2{
+  order:2 ;
+}
+.f-box3{
+order: 3;
+ padding-top: 0px;
+ padding-bottom: 10px;
+}
+.f-box4{
+order: 1;
+ padding-top: 20px;
+  padding-bottom: 50px
+}
+.f-box2 .links{
+  padding-top: 13px;
+}
+.f-box3 .links{
+  padding-top: 13px;
+}
+  }
+ @media only screen and (min-width: 768px) {
+  .footer_container_row{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 20px;
+justify-content: center;
+align-items: center;
+}
 
 }
+@media only screen and (min-width: 992px) {
+.footer_container_row{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 20px;
+justify-content: center;
+align-items: center;
+}
+}  
+
                     /* footer-2nd-part start */
 
 .footer_2nd_part{
