@@ -1274,6 +1274,15 @@ line-height: 20px;
 line-height: 23px;
 }
 .work_card img {
+  width: 190px;
+height: 160px;
+}
+.work_text {
+  width: 190px;
+height: 190;
+margin-left: 20px;
+}
+/* .work_card img {
   width: 150px;
 height: 150px;
 }
@@ -1281,7 +1290,7 @@ height: 150px;
   width: 150px;
 height: 150;
 margin-left: 20px;
-}
+} */
 .work_text h4 {
 font-size: 14px;
 line-height: 10px;
