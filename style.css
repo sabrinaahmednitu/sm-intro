@@ -1874,6 +1874,7 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
     align-items:start;
+     padding: 20px;
 }
 .unlock-content h3{
   font-family: 'Montserrat';
@@ -1881,6 +1882,12 @@ font-style: normal;
 font-weight: 700;
 font-size: 25px;
 line-height: 35px;
+}
+.unlock-content h6{
+  text-align: left;
+}
+.unlock-content h3{
+  text-align: left;
 }
 .unlock-btn{
   margin: auto;
