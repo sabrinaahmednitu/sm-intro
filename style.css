@@ -1015,12 +1015,12 @@ padding: 16px 20px;
 font-size: 11px;
 line-height: 5px;
 }
-/* .s-card1{
+.s-card1{
 overflow:hidden;
 }
 .s-card3{
 overflow:hidden;
-} */
+}
 }
 /* @media only screen and (max-width: 600px) {
 .subscription{
@@ -1882,7 +1882,9 @@ font-weight: 700;
 font-size: 25px;
 line-height: 35px;
 }
-
+.unlock-btn{
+  margin: auto;
+}
 .unlock-btn button{
   margin-top: 20px;
 }
