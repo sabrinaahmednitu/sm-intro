@@ -735,7 +735,8 @@ margin-top: 10px;
 
 }
 .feature-box p {
-  font-size: 12px;
+  box-sizing: border-box;
+  font-size: 13px;
 line-height: 15px;
  margin-top: 8px;
 /* margin-left: 40px;
@@ -942,7 +943,7 @@ font-size: 18px;
 line-height: 22px;
 letter-spacing: 0.15em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: #FFFFFF !important;
 display: block;
 margin: auto;
 margin-top: 60px;
@@ -1013,7 +1014,7 @@ margin-bottom: 0px;
 height: 32px;
 padding: 16px 20px;
 font-size: 11px;
-line-height: 5px;
+line-height:3px;
 }
 .s-card1{
 overflow:hidden;
@@ -1884,6 +1885,7 @@ font-size: 25px;
 line-height: 35px;
 }
 .unlock-content h6{
+  padding-top: 20px;
   text-align: left;
 }
 .unlock-content h3{
@@ -1894,6 +1896,7 @@ line-height: 35px;
 }
 .unlock-btn button{
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 }
 
