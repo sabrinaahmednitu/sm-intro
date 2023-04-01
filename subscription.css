@@ -32,7 +32,7 @@ padding: 100px;
                                /* product cards css */
 
  
-.all-subscription{
+/* .all-subscription{
   height:auto;
   width: 100%;
   background: #FFFFFF;
@@ -111,4 +111,308 @@ margin: auto;
 margin-top: 20px;
 margin-bottom: 20px;
 padding: 15px;
+} */
+
+
+.all-subscription{
+  width: 100%;
+height: auto;
+background: #FFFFFF;
+padding-top: 40px;
+padding-bottom: 40px;
+}     
+
+.sub-cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+.sub-card{
+width: 419px;
+height: 406px;
+background: #E9ECEF;
+border-radius: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.sub-card:hover{
+  background-color: black; 
+  color: white;
+}
+.sub-card img{
+   display: block;
+    margin: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-card h3{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+}
+.sub-card p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+margin-top: 12px;
+margin-left: 15px;
+margin-right: 15px;
+text-align: center;
+}
+.sub-card h5{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 32px;
+margin-top: 29px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+}
+.sub-card h6{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+margin-top: 12px;
+margin-bottom: 64px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+}
+.all-sub-all-btn{
+background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+border-radius: 5px;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+color: #FFFFFF !important;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 174px;
+height: 36px;
+}
+.sub-card-content{
+  text-align: center;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.all-subscription{
+  width: 100%;
+height: auto;
+background: #FFFFFF;
+padding-top: 20px;
+}    
+.sub-cards{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+.sub-head1{
+font-size: 16px;
+line-height: 20px;
+}
+.sub-head2{
+font-size: 19px;
+line-height: 23px;
+}
+
+.sub-card{
+
+/* width: 230px;
+height: auto; */
+width: 270px;
+height: 270px;
+background: #E9ECEF;
+border-radius: 10px;
+padding-bottom: 30px;
+margin: auto;
+}
+
+.sub-card img{
+   box-sizing: border-box;
+   margin:10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 36px;
+  width: 36px;
+ 
+}
+.sub-card h3{
+  font-size: 18px;
+line-height: 22px;
+}
+.sub-card p{
+ font-size: 14px;
+line-height: 17px;
+margin-top: 0px;
+margin-left: 15px;
+margin-right: 15px;
+}
+.sub-card h5{
+ font-size: 26px;
+line-height: 32px;
+margin-top: 0px;
+}
+.sub-card h6{
+font-size: 22px;
+line-height: 27px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+}
+/* @media only screen and (max-width: 600px) {
+.subscription{
+  width: 100%;
+height: auto;
+background: #FFFFFF;
+}    
+.sub-head1{
+font-size: 16px;
+line-height: 20px;
+}
+.sub-head2{
+font-size: 19px;
+line-height: 23px;
+}
+.sub-cards{
+  display: flex;
+  flex-direction: row;
+}
+.sub-card{
+width: 100%;
+background: #E9ECEF;
+border-radius: 10px;
+}
+.sub-card img{
+   box-sizing: border-box;
+   margin:10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.sub-btn{
+  display: none;
+}
+.sub-all-btn{
+  width: 273px;
+height: 32px;
+padding: 16px 20px;
+font-size: 11px;
+line-height: 5px;
+}
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.all-subscription{
+  width: 100%;
+height: auto;
+background: #FFFFFF;
+}    
+.sub-cards{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+.sub-card{
+width: 100%;
+height: auto;
+background: #E9ECEF;
+border-radius: 10px;
+}
+.sub-card img{
+  box-sizing: border-box;
+  margin: 10%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-btn{
+  display: none;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.all-subscription{
+  width: 100%;
+height: auto;
+background: #FFFFFF;
+}    
+.sub-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+.sub-card{
+width: 100%;
+background: #E9ECEF;
+border-radius: 10px;
+height: auto;
+}
+.sub-card img{
+   box-sizing: border-box;
+    margin: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-btn{
+  display: block;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.all-subscription{
+  width: 100%;
+height: auto;
+background: #FFFFFF;
+}    
+.sub-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+.sub-card{
+width: 100%;
+background: #E9ECEF;
+border-radius: 10px;
+}
+.sub-card img{
+  box-sizing: border-box;
+   margin: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-btn{
+  display: block;
+}
 }

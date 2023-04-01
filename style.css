@@ -88,9 +88,27 @@ color: #FFFFFF;
   letter-spacing: 0.15em;
 }
 
+@media only screen and (max-width: 550px){
+.nav-img{
+  width: 118.33px;
+  height: 40px;
+}
+.navbar-toggler{
+  width: 73px;
+  height: 32.95px;
+  font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 0.15em;
+display: flex;
+justify-content:space-between;
+}
 
-
-                                          /* banner css  */
+.navbar-toggler .toggler-bar{
+  width: 14.29px;
+height: 2.65px;
+}
+   }                                      /* banner css  */
 
 
 
@@ -478,10 +496,10 @@ height: 34px;
 padding: 16px 20px;
 }
 .p-card1{
-  overflow: hidden;
+  overflow: auto;
 }
 .p-card3{
-  overflow: hidden;
+  overflow: auto;
 } 
 .p-card4{
   display: none;

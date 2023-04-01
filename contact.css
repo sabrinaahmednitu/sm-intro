@@ -161,7 +161,7 @@ border-radius: 10px;
 .contact-card:hover{
     background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
 }
-.contact-card p:hover{
+.contact-content:hover{
     color: white;
 }
 
