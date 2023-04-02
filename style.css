@@ -704,11 +704,14 @@ color: #FFFFFF;
 margin-right: 40px; */
 
 }
-.f-box1{
-  
+/* .f-color1{
+ background: linear-gradient(135deg, #000000 0%, #BE1400 100%); 
 }
+.f-color2{
+ background: linear-gradient(135deg, #241B1A 0%, #BC1660 100%);  
+} */
 /* .feature-box:hover {
-   background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+    background: linear-gradient(135deg, #241B1A 0%, #BC1660 100%); 
 } */
 
 @media only screen and (max-width: 600px) {
