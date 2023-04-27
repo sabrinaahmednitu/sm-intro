@@ -140,16 +140,17 @@ margin-top: 42px;
 
                 /* contact-third-part css */
 
-.contact-third-part{
+/* .contact-third-part{
       box-sizing: border-box;
-height: 360px;
+      width: 100%;
+height: auto;
 background: #FFFFFF;
-padding: 65px;
 }
 .contact-cards{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     gap: 20px;
 }
 .contact-card{
@@ -157,27 +158,37 @@ width: 419px;
 height: 240px;
 background: #E9ECEF;
 border-radius: 10px;
-}
-.contact-card:hover{
-    background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
-}
-.contact-content:hover{
-    color: white;
-}
 
+} */
+/* .contact-card:hover{
+    background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+    color: white !important;
+}
+.contact-card p:hover{
+ color: white !important;
+} */
+/* .contact-card:hover{
+background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+color: #FFFFFF;
+}
 .contact-content{
-    box-sizing: border-box;
    display: flex;
-   flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 65px;
-
+  flex-direction: column;
+} */
+.contact-third-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-
 .contact-content img{
-    height: 40px;
-width: 50px;
+    /* height: 40px;
+width: 50px; */
+box-sizing: border-box;
+display: block;
+margin: auto;
 }
 
 .contact-content p{
@@ -190,8 +201,28 @@ text-align: center;
 color: #1C1E1A;
 margin-top: 34px;
 }
+.contact-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 
-@media only screen and (max-width: 768px) {
+.card{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+width: 419px;
+height: 240px;
+background: #E9ECEF;
+border-radius: 10px;
+}
+.card:hover{
+    background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
+color: #FFFFFF;
+}
+@media only screen and (max-width: 600px) {
 
     /* contact-first-part css */
 
@@ -204,7 +235,7 @@ margin-top: 34px;
 .contact-header{
 font-weight: 700;
 font-size: 30px;
-line-height: 37px;
+line-height: 36px;
 text-align: center;
 padding: 20px;
 }

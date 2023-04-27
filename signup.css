@@ -121,7 +121,82 @@ color: #FFFFFF;
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+ .sign-up{
+width: 100%;
+}
+.sign-up-container{
+    height: 419px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-header{
+    text-align: center;
+    margin-bottom: 52px;
+}
+.top-header h2{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.email-box , .password-box{
+box-sizing: border-box;
+width: 314px;
+height: 35px;
+left: 23px;
+top: 203px;
+border: 1px solid #E9ECEF;
+border-radius: 5px;
+}
+
+.input-field label{
+
+font-size: 16px;
+line-height: 20px;
+
+}
+.submit-box{
+box-sizing: border-box;
+width: 314px;
+height: 32px;
+
+}
+
+.bottom{
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 16px;
+margin-bottom: 32px;
+gap: 65px;
+}
+
+.left{
+    display: flex;
+}
+.left input{
+width: 20px;
+height: 20px;
+}
+.left label{
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 780px) {
     .sign-up{
 height: 694px;
 width: 100%;
@@ -171,82 +246,6 @@ height: 32px;
 
 .bottom{
  font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-color: #FFFFFF;
-margin-top: 16px;
-margin-bottom: 32px;
-gap: 65px;
-}
-
-.left{
-    display: flex;
-}
-.left input{
-width: 20px;
-height: 20px;
-}
-.left label{
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-}
-
-
-}
-
-@media only screen and (max-width: 550px) {
-    .sign-up{
-height: 694px;
-width: 100%;
-}
-.sign-up-container{
-  width: 360px;
-    height: 419px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.top-header{
-    text-align: center;
-    margin-bottom: 52px;
-}
-.top-header h2{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 19px;
-line-height: 23px;
-text-align: center;
-color: #FFFFFF;
-}
-
-.email-box , .password-box{
-box-sizing: border-box;
-width: 314px;
-height: 35px;
-left: 23px;
-top: 203px;
-border: 1px solid #E9ECEF;
-border-radius: 5px;
-}
-
-.input-field label{
-
-font-size: 16px;
-line-height: 20px;
-
-}
-.submit-box{
-box-sizing: border-box;
-width: 314px;
-height: 32px;
-
-}
-
-.bottom{
-    font-weight: 400;
 font-size: 16px;
 line-height: 20px;
 text-align: center;

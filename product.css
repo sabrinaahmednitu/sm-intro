@@ -114,9 +114,15 @@ padding: 15px;
 }
 
 
-/* @media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   .product-card-body span {
     display: block !important;
   }
-
-} */
+  .product-card-body h5{
+    color: #F81F01;
+  }
+  .product-card-body h2{
+     font-size: 21px ;
+     line-height: 25px ;
+  }
+}

@@ -215,4 +215,26 @@ text-align: center;
 
 
 
- 
+ @media only screen and (max-width: 600px) {
+                /* sc header */
+.sc-header{
+ width: 100%;
+height: auto;
+}
+
+           /* sc main */
+.sc-main{
+ width: 100%;
+height: auto;
+ }
+
+ .sc-blog{
+ width: 100%;
+height: auto;
+ }
+
+ .sc-footer{
+    width: 100%;
+    height: auto;
+}
+}
