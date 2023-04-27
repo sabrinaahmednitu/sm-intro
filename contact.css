@@ -140,49 +140,27 @@ margin-top: 42px;
 
                 /* contact-third-part css */
 
-/* .contact-third-part{
-      box-sizing: border-box;
-      width: 100%;
-height: auto;
-background: #FFFFFF;
-}
-.contact-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 20px;
-}
-.contact-card{
-width: 419px;
-height: 240px;
-background: #E9ECEF;
-border-radius: 10px;
 
-} */
-/* .contact-card:hover{
-    background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
-    color: white !important;
-}
-.contact-card p:hover{
- color: white !important;
-} */
-/* .contact-card:hover{
-background: linear-gradient(135deg, #F81F01 0%, #EE076E 100%);
-color: #FFFFFF;
-}
-.contact-content{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  flex-direction: column;
-} */
 .contact-third-part{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
     
 }
+.contact-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .contact-content img{
     /* height: 40px;
 width: 50px; */
@@ -195,18 +173,12 @@ margin: auto;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
-font-size: 22px;
+font-size: 21px;
 line-height: 27px;
 text-align: center;
 color: #1C1E1A;
 margin-top: 34px;
-}
-.contact-container{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+box-sizing: border-box;
 }
 
 .card{
@@ -302,24 +274,107 @@ margin-bottom: 35px;
         width: 100%;
         height:auto ;
     }
-    .contact-cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+.contact-container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
 }
-.contact-card{
-    width: 340px;
+
+.card{
+    width: 314px;
    height: 240px;
 }
 
-.contact-content{
-    box-sizing: border-box;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding: 65px;
+}
+@media only screen and (max-width: 1350px) {
+
+    /* contact-first-part css */
+
+.contact-first-part{
+    width: 100%;
+    height: 72px;
+    background: #101010;
+}
+
+.contact-header{
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+padding: 20px;
+}
+
+    /* contact-second-part css */
+.contact-second-part{
+     height: auto;
+     width: 100%;
+     background: #191919;
+ }
+
+.contact-input-field{
+    flex-direction: column;
+}
+
+
+.top-header{
+    text-align: center;
+    padding: 52px;
+}
+.top-header h6{
+font-size: 15px;
+line-height: 15px;
+
+}
+.top-header h2{
+font-size: 28px;
+line-height: 39px;
+}
+
+.email-box , .password-box{
+box-sizing: border-box;
+width: 314px;
+height: 35px;
+margin-top: 8px;
+margin-bottom: 8px;
+}
+.contact-input-field label{
+font-size: 16px;
+line-height: 20px;
+}
+.comment-box{
+width: 313px;
+height: 119.89px;
+margin-top: 7px;
+margin-bottom: 21px;
+}
+.comment label{
+font-size: 16px;
+line-height: 20px;
+}
+.contact-submit-box{
+width: 313px;
+height: 32px;
+
+margin-top: 21px;
+margin-bottom: 35px;
+}
+
+
+  /* contact-third-part css */
+
+    .contact-third-part{
+        width: 100%;
+        height:auto ;
+    }
+.contact-container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
+}
+
+.card{
+    width: 314px;
+   height: 240px;
 }
 
 }
